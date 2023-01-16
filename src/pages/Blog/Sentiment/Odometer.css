@@ -1,0 +1,49 @@
+/* .odometer {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2em;
+  font-weight: bold;
+  color: #333;
+}
+
+.odometer::before {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: block;
+  width: 4em;
+  height: 4em;
+  border-radius: 50%;
+  background-color: #eee;
+  box-shadow: inset 0 0 0 3px #fff;
+}
+
+.odometer::after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: block;
+  width: 3em;
+  height: 3em;
+  border-radius: 50%;
+  background-color: #333;
+  transition: transform 0.5s;
+}
+
+.odometer.positive::after {
+  transform: translate(-50%, -50%) rotate(180deg);
+}
+
+.odometer.negative::after {
+  transform: translate(-50%, -50%) rotate(0deg);
+}
+
+.odometer.neutral::after {
+  transform: translate(-50%, -50%) rotate(90deg);
+} */
