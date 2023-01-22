@@ -20,8 +20,8 @@ const BlogItem = ({
 }) => {
   // console.log({ links });
   return (
-    <Link to={`/blog/${id}`}>
-      <div className="blogItem-wrap" to={`/blog/${id}`}>
+    <Link to={`/blog/${title}`}>
+      <div className="blogItem-wrap" to={`/blog/${title}`}>
         <img className="blogItem-cover" src={image0} alt="cover" />
         {/* <Chip label={category} /> */}
         <h3>{title}</h3>
@@ -34,7 +34,7 @@ const BlogItem = ({
               {/* <p>{_id.getTimestamp()}</p> */}
             </div>
           </div>
-          <Link className="blogItem-link" to={`/blog/${id}`}>
+          <Link className="blogItem-link" to={`/blog/${title}`}>
             ➝
           </Link>
         </footer>

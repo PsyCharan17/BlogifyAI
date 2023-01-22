@@ -1,6 +1,7 @@
 import React from "react";
 import InputForm from "./InputForm/InputForm";
 import Navbar from "./Navbar/NavbarTop";
+import "./HeroSection.css";
 
 const HeroSection = () => {
   return (

@@ -74,9 +74,9 @@ const Home = () => {
     <div>
       {/* Page Header */}
       {/* <Header /> */}
-      {/* <section style={{ left: "0", width: "100vw", marginLeft: "0px" }}>
+      <section style={{ left: "0", width: "100vw", marginLeft: "0px" }}>
         <HeroSection />
-      </section> */}
+      </section>
 
       {/* Search Bar */}
       <SearchBar

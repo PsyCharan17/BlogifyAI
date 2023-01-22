@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { Form, Button } from "react-bootstrap";
+import { Link } from "react-router-dom";
 import "./InputForm.css";
 import axios from "axios";
 // import uploadBlog from "../../../../backend/controllers/uploadController";
@@ -9,7 +10,7 @@ const InputForm = () => {
   const [blogContent, setBlogContent] = useState("");
   const [loading, setLoading] = useState(false);
   const [doneProcessing, setDoneProcessing] = useState(false);
-
+  // const [id, setId] = useState(9);
   // const gettingBlogs = () => {
   //   axios.get("http://localhost:5000/api/upload/getBlogs").then((res) => {
   //     console.log(res.data);
@@ -36,6 +37,8 @@ const InputForm = () => {
         { title, blogContent },
         config
       );
+      // console.log("Blog created and its Id is : " + id);
+      // setId(id + 1);
 
       const doneProcessing = await axios.post(
         "http://127.0.0.1:8000/blog",
@@ -45,7 +48,7 @@ const InputForm = () => {
 
       console.log(data);
       console.log(doneProcessing);
-      // setLoading(false);
+      setLoading(false);
     } catch (error) {
       console.error(error);
     }

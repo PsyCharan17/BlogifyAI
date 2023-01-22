@@ -28,7 +28,7 @@ const Blog = () => {
           console.log("inside gettingblogs");
           const recentBlogs = res.data;
           recentBlogs.map((blog) => {
-            if (blog.id === parseInt(id)) {
+            if (blog.title === id) {
               setBlog(blog);
             }
           });

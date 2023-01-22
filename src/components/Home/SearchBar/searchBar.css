@@ -9,7 +9,7 @@
 .searchBar-wrap form {
   display: flex;
   align-items: center;
-  width:70vw;
+  width:50vw;
   justify-content: space-between;
 }
 
