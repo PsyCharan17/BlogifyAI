@@ -1,6 +1,6 @@
 export const authorInfo = [
   {
-    name: "Siddharth",
+    name: "Blogify.ai",
     avatar: "https://cdn-icons-png.flaticon.com/512/706/706807.png",
   },
   {

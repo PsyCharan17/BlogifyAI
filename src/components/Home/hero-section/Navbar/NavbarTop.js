@@ -1,6 +1,7 @@
 import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
+import { Link } from "react-router-dom";
 
 function NavbarTop() {
   return (
@@ -33,28 +34,32 @@ function NavbarTop() {
           </div>
           <div>
             <Nav className="me-auto">
-              <Nav.Link
-                href="#home"
-                style={{
-                  padding: "0 40px",
-                  fontSize: "20px",
-                  color: "white",
-                  textDecoration: "none",
-                }}
-              >
-                <strong>Blogs</strong>
-              </Nav.Link>
-              <Nav.Link
-                href="#features"
-                style={{
-                  padding: "0 40px",
-                  fontSize: "20px",
-                  color: "white",
-                  textDecoration: "none",
-                }}
-              >
-                <strong>Login/Signup</strong>
-              </Nav.Link>
+              <Link to="/blog_creation">
+                <Nav.Link
+                  href="#home"
+                  style={{
+                    padding: "0 40px",
+                    fontSize: "20px",
+                    color: "white",
+                    textDecoration: "none",
+                  }}
+                >
+                  <strong>Create Blog</strong>
+                </Nav.Link>
+              </Link>
+              <Link to="/">
+                <Nav.Link
+                  href="#features"
+                  style={{
+                    padding: "0 40px",
+                    fontSize: "20px",
+                    color: "white",
+                    textDecoration: "none",
+                  }}
+                >
+                  <strong>Blogs</strong>
+                </Nav.Link>
+              </Link>
             </Nav>
           </div>
         </Container>

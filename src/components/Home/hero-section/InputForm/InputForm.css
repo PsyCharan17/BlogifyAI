@@ -2,7 +2,13 @@
   display:flex;
   justify-content: center;
   margin-top:0;
-  /* background:linear-gradient(90deg, rgba(57,17,206,1) 2%, rgba(29,124,253,1) 46%, rgba(52,196,202,1) 84%); */
+  background:linear-gradient(90deg, rgba(57,17,206,1) 2%, rgba(29,124,253,1) 46%, rgba(52,196,202,1) 84%);
+  /* postion: relative; */
+   top: 150px;
+   height:90vh;
+   width:100%;
+   margin-top:0px;
+   border-radius: 30px;
 }
 
 .form-container{

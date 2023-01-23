@@ -78,7 +78,8 @@ const Blog = () => {
           </header>
           <img src={blog.image1} alt="cover" />
           <p className="blog-desc">{blog.blogContent}</p>
-          <img src={blog.image3} alt="cover" />
+          <img src={blog.image4} alt="cover" />
+          <img src={blog.image5} alt="cover" />
         </div>
       ) : (
         <EmptyList />
