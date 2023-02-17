@@ -1,3 +1,25 @@
+# Blogify.ai : Generate AI generated images for your Blogs
+
+Blogify.ai can be used by bloggers to generate custom AI generated images for their blogs. These custom images can be viewed along with the blog content on our webapp. 
+The webapp also provides other features such as Sentiment Analysis, WordCloud and Keyword tagging for the blogs.
+
+# Implementation
+## Home Page 
+![v7 homepage](https://user-images.githubusercontent.com/88344386/219556266-d1a704ce-5eb7-4b43-8f67-aac00ecdfae0.JPG)
+
+## Create Blog Page
+
+![v7 blogs page](https://user-images.githubusercontent.com/88344386/219556378-5c240fb9-3387-44eb-b9f3-5ae3d1073698.JPG)
+
+## Blog's Page
+
+![v8 blogspage1](https://user-images.githubusercontent.com/88344386/219557066-4c1709f6-49f3-43da-9a59-18e403415fef.JPG)
+
+![v8 blogspage2](https://user-images.githubusercontent.com/88344386/219557069-bd31fcdc-48f4-4bd5-875c-244e91a3206b.JPG)
+
+![v8 blogspage3](https://user-images.githubusercontent.com/88344386/219557070-b3601126-ef2a-4f83-a6c7-6ddf9b1283ac.JPG)
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
