@@ -3,6 +3,9 @@
 Blogify.ai can be used by bloggers to generate custom AI generated images for their blogs. These custom images can be viewed along with the blog content on our webapp. 
 The webapp also provides other features such as Sentiment Analysis, WordCloud and Keyword tagging for the blogs.
 
+## Tech Stack used
+ReactJS, ExpressJS,NodeJS, MongoDB, Python (FastAPI Backend)
+
 # Implementation
 ## Home Page 
 ![v7 homepage](https://user-images.githubusercontent.com/88344386/219556266-d1a704ce-5eb7-4b43-8f67-aac00ecdfae0.JPG)
